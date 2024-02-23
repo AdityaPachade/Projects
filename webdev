@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial scale = 1.0" />
+<title>Video Game Survey</title>
+<style>
+body {
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #000000;
+}
+div.survey-elements {
+margin: auto;
+background-color: rgb(63, 59, 189);
+width: calc(55%);
+text-align: left;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 30px;
+padding-top: 45px;
+padding-bottom: 65px;
+padding: auto;
+border-radius: 25px;
+}
+div.questions {
+padding-bottom: 10px;
+border-bottom: solid rgb(2, 255, 86) 2px;
+margin-bottom: 20px;
+}
+h1 {
+padding-top: 60px;
+padding-bottom: 60px;
+background-color: rgb(187, 66, 66);
+width: calc(55%);
+margin: auto;
+border-radius: 10px;
+}
+#ending {
+margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<h1>Video Game Survey</h1>
+<div class="survey-elements">
+<div class="questions">
+What is your gender?
+</div>
+<input type="radio" id="yes" name="question1" />Female
+<input type="radio" id="no" name="question1" />Male
+</div>
+<div class="survey-elements">
+<div class="questions">How often do you play videogames?
+</div>
+<input type="radio" id="yes" name="question1" />Regurlarly
+<input type="radio" id="no" name="question1" />Occasionally
+</div>
+<div class="survey-elements">
+<div class="questions">Do you prefer Singleplayer or Multiplayer?</div>
+<input type="radio" id="yes" name="question2" /> Singleplayer
+<input type="radio" id="no" name="question2" /> Multiplayer
+</div>
+<div class="survey-elements">
+<div class="questions">
+Have you ever puchased any microtransactions?
+</div>
+<input type="radio" id="yes" name="question3" /> yes
+<input type="radio" id="no" name="question3" /> no
+</div>
+<div class="survey-elements">
+<div class="questions">
+<div id="ending">
+Thank you for your feedback
+</body>
+</html>
